@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+.carousel{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    
+}
+.img-co{
+    display: flex;
+    transition: transform 2s ease;
+}
+img{
+    width: 500px;
+    height: 500px;
+   object-fit: cover;
+}
